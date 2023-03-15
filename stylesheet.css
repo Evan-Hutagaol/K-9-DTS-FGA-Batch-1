@@ -1,0 +1,255 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navigasi/Header */
+
+header {
+    height: 110px;
+    width: 100%;
+    background-color: rgb(31, 90, 167);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    opacity: 1;
+  }
+
+.header-left img{
+    width: 85px;
+    border-radius: 50%;
+}
+
+.header-left p{
+    font-size: 28px;
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+}
+
+.header-left li{
+    list-style: none;
+    float: left;
+}
+
+.header-right{
+    float: right;
+    padding: 21px 35px;
+}
+
+.login{
+    padding: 12px 24px;
+    color: black;
+    display: inline-block;
+    opacity: 0.7;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 30px;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.login:hover{
+    opacity: 1;
+}
+
+.register{
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.7;
+    border-radius: 10px;
+    background-color: rgb(87, 195, 87);
+    text-decoration: none;
+}
+.register:hover{
+    opacity: 1;
+}
+
+/* Konten */
+
+.top-wrapper{
+    background-image: url(./assets/glare.jpg);
+    padding: 180px 0 180px 0;
+}
+
+.top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+  }
+
+.top-wrapper p{
+    padding-top: 150px;
+    color: white;
+    text-align: center;
+    line-height: 80%;
+}
+
+.lesson-wrapper{
+    text-align: center;
+    height: 500px;
+    padding-bottom: 50px;
+}
+
+
+.lesson {
+    float: left;
+    width: 25%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.lesson-icon {
+    position: relative;
+}
+  
+.lesson-icon p {
+    position: absolute;
+    top: 44%;
+    width: 100%;
+    color: white;
+    
+}
+
+.btn{
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.7;
+    border-radius: 60px;
+    background-color: rgb(87, 195, 87);
+    text-decoration: none;
+}
+
+.btn:hover{
+    opacity: 1;
+}
+
+.heading h2{
+    line-height: 90px;
+}
+
+/* Komentar dan Saran */
+.header-form{
+    font-weight: bold;
+}
+
+.border-form{
+    width: 200px;
+}
+
+.header-form{
+    text-align: center;
+}
+
+.form-komentar{
+    padding-bottom: 50px;
+    padding-left: 500px;
+    margin-top: 500px;
+}
+
+
+.akun{
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom:30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+}
+
+.saran{
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom:30px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Footer */
+
+footer{
+    background-color: rgb(31, 90, 167);
+    height: 130px;
+    width: 100%;
+}
+
+.left-footer img{
+    width: 70px;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+.right-footer{
+    float: right;
+    list-style: none;
+    color: white;
+    font-size: 14px;
+    padding-right: 50px;
+    padding-top: 12px;
+}
+
+.left-footer{
+    float: left;
+    padding-top: 25px;
+    padding-left: 25px;
+    margin-right: 25px;
+}
+
+.text p{
+    padding-top: 20px;
+    font-size: 14px;
+    color: white;
+}
+
+
+
+.sosial-media{
+    padding-top: 10px;
+    font-size: 25px;
+    
+}
+
+.sosial-media i{
+    margin-right: 20px;
+    color: white;
+}
+
+.email{
+    flex: 1;
+    padding: 5px 5px;
+    font-size: 16px;
+    color: #293043;
+    background: #ddd;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    min-width: 0px;
+}
+
+.tombol{
+    padding: 5px 15px;
+    font-size: 16px;
+    color: #f1f1f1;
+    background-color: rgb(87, 195, 87);
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: opacity .3s linear;
+}
+
+.messages{
+    text-align: center;
+    margin-left: 250px;
+    color: white;
+    font-size: 14px;
+}
