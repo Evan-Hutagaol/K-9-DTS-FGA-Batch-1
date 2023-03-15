@@ -1,9 +1,182 @@
 /* tablet */
-@media (max-width: 670px) {
+@media (max-width: 1092px) {
 	
 }
 
 /* smartphone */
-@media (max-width: 360px) {
-	
+@media (max-width: 670px) {
+	.top-wrapper{
+        width: 100%;
+    }
+
+    .form-komentar{
+        padding-bottom: 50px;
+        padding-left: 90px;
+        margin-top: 90px;
+    }
+    
+    .lesson-icon img{
+        width: 50px;
+    }
+
+    .header-right{
+        float: right;
+        padding: 3px 10px;
+    }
+
+    .login{
+        padding: 6px 6px;
+        color: black;
+        display: inline-block;
+        opacity: 0.7;
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+        margin-right: 30px;
+        font-style: normal;
+        text-decoration: none;
+    }
+
+    .register{
+        padding: 6px 6px;
+        color: white;
+        display: inline-block;
+        opacity: 0.7;
+        border-radius: 10px;
+        background-color: rgb(87, 195, 87);
+        text-decoration: none;
+    }
+
+    .header-left img{
+        width: 42px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+    }
+
+    header{
+        height: 70px;
+        width: 100%;
+    }
+
+    .header-left p{
+        font-size: 14px;
+        display: block;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 25px;
+        color: white;
+    }
+
+    .text p{
+        padding-top: 20px;
+        font-size: 10px;
+        color: white;
+    }
+
+    .lesson-wrapper{
+        text-align: center;
+        height: 50%;
+        padding-bottom: 20px;
+    }
+    
+    
+    .lesson {
+        float: left;
+        width: 50%;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    
+    .lesson-icon {
+        position: relative;
+    }
+      
+    .lesson-icon p {
+        position: absolute;
+        top: 44%;
+        width: 100%;
+        color: white;
+        
+    }
+
+    .form-komentar{
+    padding-bottom: 50px;
+    padding-left: 10%;
+    margin-top: 10%;
+    align-items: center;
+}
+
+    footer{
+        background-color: rgb(31, 90, 167);
+        height: 130px;
+        width: 100%;
+    }
+
+    .left-footer{
+        float: left;
+        padding-top: 12px;
+        padding-left: 12px;
+        margin-right: 12px;
+    }
+
+    .right-footer{
+        float: right;
+        list-style: none;
+        color: white;
+        font-size: 10px;
+        padding-right: 10px;
+        padding-top: 6px;
+    }
+
+    .email{
+        flex: 1;
+        padding: 5px 5px;
+        font-size: 5px;
+        color: #293043;
+        background: #ddd;
+        border: none;
+        outline: none;
+        border-radius: 30px;
+        min-width: 0px;
+    }
+
+    .tombol{
+        padding: 5px 15px;
+        font-size: 5px;
+        color: #f1f1f1;
+        background-color: rgb(87, 195, 87);
+        border: none;
+        font-weight: 700;
+        outline: none;
+        border-radius: 30px;
+        margin-left: 20px;
+        cursor: pointer;
+        transition: opacity .3s linear;
+    }
+
+    .left-footer img{
+        width: 35px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+    
+    .sosial-media{
+        padding-top: 5px;
+        font-size: 12px;
+    }
+
+    .sosial-media i{
+        margin-right: 0px;
+        color: white;
+        padding-left: 10px;
+    }
+
+    
+    .messages{
+        text-align: center;
+        margin-left: 0px;
+        color: white;
+        font-size: 11px;
+        padding-top: 25px;
+    }
+    
 }
