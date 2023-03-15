@@ -1,5 +1,66 @@
 /* tablet */
 @media (max-width: 670px) {
+	header {
+    height: 110px;
+    width: 100%;
+    background-color: rgb(31, 90, 167);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    opacity: 1;
+  }
+
+	.header-left img{
+			width: 75px;
+			border-radius: 50%;
+	}
+
+	.header-left p{
+			font-size: 28px;
+			display: block;
+			padding-left: 50px;
+			padding-right: 50px;
+			color: white;
+	}
+
+	.header-left li{
+			list-style: none;
+			float: left;
+	}
+
+	.header-right{
+			float: right;
+			padding: 21px 35px;
+	}
+
+	.login{
+			padding: 12px 24px;
+			color: black;
+			display: inline-block;
+			opacity: 0.7;
+			border-radius: 10px;
+			background-color: rgb(255, 255, 255);
+			margin-right: 30px;
+			font-style: normal;
+			text-decoration: none;
+	}
+
+	.login:hover{
+			opacity: 1;
+	}
+
+	.register{
+			padding: 12px 24px;
+			color: white;
+			display: inline-block;
+			opacity: 0.7;
+			border-radius: 10px;
+			background-color: rgb(87, 195, 87);
+			text-decoration: none;
+	}
+	.register:hover{
+			opacity: 1;
+	}
 	
 }
 
